@@ -1,0 +1,28 @@
+html {
+  font-size: 10px;
+  font-family: sans-serif;
+}
+
+.title {
+  font-size: 2rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.tabla {
+  width: 100%;
+}
+
+.tabla__encabezado {
+  background-color: rgb(60, 175, 204);
+  text-align: left;
+  padding: 1rem;
+}
+
+.tabla__encabezado--nombre {
+  width: 70%;
+}
+
+.tabla__fila {
+  border-style: 1px solid black;
+}

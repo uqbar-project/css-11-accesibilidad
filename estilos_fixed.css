@@ -1,0 +1,45 @@
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.title {
+  font-size: 2rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.tabla {
+  width: 100%;
+}
+
+.tabla__encabezado {
+  background-color: rgb(60, 175, 204);
+  text-align: left;
+  padding: 1rem;
+}
+
+.tabla__encabezado--nombre {
+  width: 70%;
+}
+
+.tabla__fila {
+  border-style: 1px solid black;
+}
+
+.tabla__fila--nombre {
+  padding: 1em;
+}
+
+.tabla__fila--ok {
+  color: green;
+}
+
+.tabla__fila--warning {
+  color: tomato;
+}
+
+.tabla__fila--ok, .tabla__fila--warning {
+  text-align: center;
+  padding: 1em;
+}

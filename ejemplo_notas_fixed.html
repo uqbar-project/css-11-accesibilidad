@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>Accesibilidad</title>
+  <link href="./estilos_fixed.css" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/15fddd8842.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="main">
+    <div class="title">Planilla de notas</div>
+    <table class="tabla">
+      <thead>
+        <th class="tabla__encabezado">Estado de la cursada</th>
+        <th class="tabla__encabezado tabla__encabezado--nombre">Nombre</th>
+        <th class="tabla__encabezado">Primer parcial</th>
+        <th class="tabla__encabezado">Segundo parcial</th>
+      </thead>
+      <tr class="tabla__fila">
+        <td class="tabla__fila--ok" title="Promociona">
+          <i class="fas fa-check-circle fa-2x"></i>
+        </td>
+        <td class="tabla__fila--nombre">AMENDOLA, BRENDA</td>
+        <td>10 (diez)</td>
+        <td>8 (ocho)</td>
+      </tr>
+      <tr>
+        <td class="tabla__fila--warning" title="Tiene que recuperar para poder firmar la materia">
+          <i class="fas fa-exclamation-circle fa-2x"></i>
+        </td>
+        <td class="tabla__fila--nombre">PIERSIMONE, MAURICIO</td>
+        <td>Recupera</td>
+        <td>6 (seis)</td>
+      </tr>
+    </table>
+  </div>
+</body>
+
+</html>
