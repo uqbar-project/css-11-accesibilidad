@@ -10,7 +10,7 @@
 
 <body>
   <div class="main">
-    <div class="title">Planilla de notas</div>
+    <div class="title" aria-label="Notas">Planilla de notas</div>
     <table class="tabla">
       <thead>
         <th class="tabla__encabezado">Estado de la cursada</th>
@@ -23,7 +23,10 @@
           <i class="fas fa-check-circle fa-2x"></i>
         </td>
         <td class="tabla__fila--nombre">AMENDOLA, BRENDA</td>
-        <td>10 (diez)</td>
+        <td>
+          <span aria-hidden="true">10</span>
+          <span>(diez)</span>
+        </td>
         <td>8 (ocho)</td>
       </tr>
       <tr>
