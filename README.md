@@ -72,3 +72,4 @@ Lograr que una página web sea usable requiere tener en cuenta las característi
 - [Writing CSS with Accessibility in Mind](https://medium.com/@matuzo/writing-css-with-accessibility-in-mind-8514a0007939)
 - [The A11Y Project](https://www.a11yproject.com/)
 - [W3 Accessibility](https://www.w3.org/standards/webdesign/accessibility.html)
+- [Modern CSS Techniques To Improve Legibility](https://www.smashingmagazine.com/2020/07/css-techniques-legibility/)
